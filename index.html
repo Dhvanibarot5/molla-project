@@ -1,541 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website</title>
-    <!-- fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="asset/css/bootstrap.min.css" />
-    <!-- css -->
-    <link rel="stylesheet" href="asset/css/style.css" />
-  </head>
 
-  <body data-bs-theme="light">
-    <!-- header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website</title>
+  <!-- fontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="asset/css/style.css" />
+</head>
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
-      <div class="container">
-        <a href="" class="navbar-brand">
-          <img src="asset/images/logo1.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#click"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="click">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item fs-5 me-4 dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle text-light"
-                data-bs-toggle="dropdown"
-                >Home</a
-              >
-              <ul class="dropdown-menu pe-5">
-                <h6 class="m-3">CHOOSE YOUR DEMO</h6>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >01-furniture store</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >02-electronic store</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >03-fashion store</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >04-shoes store</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >05-watch store</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item fs-5 me-4 dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle text-light"
-                data-bs-toggle="dropdown"
-                >Shop</a
-              >
-              <ul class="dropdown-menu">
-                <h6 class="m-3">SHOP WITH SIDEBAR</h6>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop List</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop Grid 2 Columns</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop Grid 3 Columns</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop Grid 4 Columns</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop Market</a
-                  >
-                </li>
-                <br />
-                <h6 class="m-3">SHOP NO SIDEBAR</h6>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop Boxed No
-                  </a>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Shop Fullwidth No Sidebar</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item fs-5 me-4 dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle text-light"
-                data-bs-toggle="dropdown"
-                >Product</a
-              >
-              <ul class="dropdown-menu pe-5">
-                <h6 class="m-3">PRODUCT DETAILS</h6>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Default</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Centered</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Extended Info</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Gallery</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Sticky Info</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Boxed With Sidebar</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Full Width</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Masonry Sticky Info</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item fs-5 me-4 dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle text-light"
-                data-bs-toggle="dropdown"
-                >Pages</a
-              >
-              <ul class="dropdown-menu">
-                <h6 class="m-2">PRODUCT DETAILS</h6>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary">About</a>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Contact</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary">Login</a>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary">FAQs</a>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Erorr 404</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item text-body-tertiary"
-                    >Coming soon</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item fs-5 me-4 dropdown">
-              <a
-                href=""
-                class="nav-link text-light dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Blog</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="" class="dropdown-item m-1 text-body-tertiary"
-                    >Classic</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-1 text-body-tertiary"
-                    >Listing</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-1 text-body-tertiary"
-                    >Grid</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-1 text-body-tertiary"
-                    >Masonry</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-1 text-body-tertiary"
-                    >Mask</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-1 text-body-tertiary"
-                    >Single Post</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item fs-5 me-4 dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle text-light"
-                data-bs-toggle="dropdown"
-                >Element</a
-              >
-              <ul class="dropdown-menu pe-5">
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Products</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Typography</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Titles</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Banners</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Product Category</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Video Banners</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Buttons</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Accordians</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Tabs</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Testimonials</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Blog Post</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Portfolio</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Call to Action</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="dropdown-item m-2 text-body-tertiary"
-                    >Icon Boxes</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <i class="fa-solid fa-magnifying-glass me-4 fs-4 text-light"></i>
-          <i class="fa-regular fa-heart me-4 fs-4 text-light position-relative"
-            ><span class="position-absolute count rounded-circle">3</span></i
-          >
-          <i
-            class="fa-solid fa-cart-shopping me-4 fs-4 text-light position-relative"
-            ><span class="position-absolute count rounded-circle">2</span></i
-          >
-          <span class="text-light">$16,400</span>
-        </div>
+<body data-bs-theme="light">
+  <!-- header -->
+
+  <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+    <div class="container">
+      <a href="" class="navbar-brand">
+        <img src="asset/images/logo1.png" alt="" />
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="click">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item me-3 fw-semibold dropdown">
+            <a href="" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Home</a>
+            <ul class="dropdown-menu pe-5">
+              <h6 class="m-3">CHOOSE YOUR DEMO</h6>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">01-furniture store</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">02-electronic store</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">03-fashion store</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">04-shoes store</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">05-watch store</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item me-3 fw-semibold dropdown">
+            <a href="" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Shop</a>
+            <ul class="dropdown-menu">
+              <h6 class="m-3">SHOP WITH SIDEBAR</h6>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop List</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop Grid 2 Columns</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop Grid 3 Columns</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop Grid 4 Columns</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop Market</a>
+              </li>
+              <br />
+              <h6 class="m-3">SHOP NO SIDEBAR</h6>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop Boxed No
+                </a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Shop Fullwidth No Sidebar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item me-3 fw-semibold dropdown">
+            <a href="" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Product</a>
+            <ul class="dropdown-menu pe-5">
+              <h6 class="m-3">PRODUCT DETAILS</h6>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Default</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Centered</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Extended Info</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Gallery</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Sticky Info</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Boxed With Sidebar</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Full Width</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Masonry Sticky Info</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item me-3 fw-semibold dropdown">
+            <a href="" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <h6 class="m-2">PRODUCT DETAILS</h6>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">About</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Contact</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Login</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">FAQs</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Erorr 404</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item text-body-tertiary">Coming soon</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item me-3 fw-semibold dropdown">
+            <a href="" class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="" class="dropdown-item m-1 text-body-tertiary">Classic</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-1 text-body-tertiary">Listing</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-1 text-body-tertiary">Grid</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-1 text-body-tertiary">Masonry</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-1 text-body-tertiary">Mask</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-1 text-body-tertiary">Single Post</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item me-3 fw-semibold dropdown">
+            <a href="" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Element</a>
+            <ul class="dropdown-menu pe-5">
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Products</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Typography</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Titles</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Banners</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Product Category</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Video Banners</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Buttons</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Accordians</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Tabs</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Testimonials</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Blog Post</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Call to Action</a>
+              </li>
+              <li>
+                <a href="" class="dropdown-item m-2 text-body-tertiary">Icon Boxes</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <i class="fa-solid fa-magnifying-glass me-4 fs-5 text-light"></i>
+        <i class="fa-regular fa-heart me-4 fs-5 text-light position-relative"><span
+            class="position-absolute count rounded-circle">3</span></i>
+        <i class="fa-solid fa-cart-shopping me-4 fs-5 text-light position-relative"><span
+            class="position-absolute count rounded-circle">2</span></i>
+        <span class="text-light">$16,400</span>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <main>
-      <section class="container-fluid hero">
-        <div class="container">
-          <div class="d-flex vh-100 justify-content-center align-items-center">
-            <div class="">
-              <p class="text-center text-light">SEASONAL PICKS</p>
-              <h1 class="text-light">GET ALL THE GOOD STUFF</h1>
-              <button class="p-2 btn btn-outline-warning text-light">
-                Discover More
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="mt-5">
-            <div class="row">
-              <div class="col-6">
-                <div class="h-100">
-                  <img
-                    class="img-fluid h-100"
-                    src="asset/images/banner-1.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="col-6">
-                <div>
-                  <img
-                    class="img-fluid mb-4"
-                    src="asset/images/banner-2.jpg"
-                    alt=""
-                  />
-                  <img
-                    class="img-fluid"
-                    src="asset/images/banner-3.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-secondary mt-5">
-        <div class="container">
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="mt-5 mb-4">
-              <h4 class="text-center">Recent Arrivals</h4>
-              <p>Aliquam tincidunt mauris eurisus</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-3">
-              <img src="asset/images/product-1-2.jpg" alt="" />
-              <h6 class="text-body-tertiary mb-0 mt-3">CLOTHING</h6>
-              <p class="mb-2">Linen-blend dress</p>
-              <p class="text-warning">$60.00</p>
-            </div>
-            <div class="col-3">
-              <div class="position-relative">
-                <img src="asset/images/product-2-2.jpg" alt="" />
-                <span class="position-absolute sale z-3 bg-warning-subtle p-1"
-                  >sale</span
-                >
-                <h6 class="text-body-tertiary mb-0 mt-3">SHOES</h6>
-                <p class="mb-2">Sandals with lacing</p>
-                <p class="text-warning mb-0">Now $70.00</p>
-                <p class="text-body-tertiary">Was $84.00</p>
-              </div>
-            </div>
-            <div class="col-3">
-              <img src="asset/images/product-3-2.jpg" alt="" />
-              <h6 class="text-body-tertiary mb-0 mt-3">CLOTHING</h6>
-              <p class="mb-2">Paper bag trousers</p>
-              <p class="text-warning">$60.00</p>
-            </div>
-            <div class="col-3">
-              <img src="asset/images/product-4-2.jpg" alt="" />
-              <h6 class="text-body-tertiary mb-0 mt-3">HANDBAGS</h6>
-              <p class="mb-2">Bucket bag</p>
-              <p class="text-warning">$350.00</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="mt-5 mb-4">
-              <h4 class="text-center">Popular Categories</h4>
-              <p>Vestibulum auctor dapibus neque</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">
-              <div class="position-relative shopCard">
-                <img src="asset/images/banner-4.jpg" alt="" />
-                <div class="position-absolute top-50 start-50 translate-middle">
-                  <p class="text-light text-center">Accessories</p>
-                  <p class="text-light text-center">16 Items</p>
-                  <button class="shopBtn btn btn-outline-warning">
-                    Shop Now
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="">
-                <img src="asset/images/banner-6.jpg" alt="" />
-                <img src="asset/images/banner-7.jpg" alt="" class="mt-4" />
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="">
-                <img src="asset/images/banner-5.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mt-5 mb-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-3">
-              <div class="d-flex">
-                <i
-                  class="fa-solid fa-rocket d-flex align-items-center fs-3 me-3 text-warning-emphasis"
-                ></i>
-                <div class="">
-                  <p class="mb-0">Free Shipping</p>
-                  <span class="text-body-tertiary">Orders $50 or more</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="d-flex">
-                <i
-                  class="fa-solid fa-rotate-left d-flex align-items-center fs-3 me-3 text-warning-emphasis"
-                ></i>
-                <div class="">
-                  <p class="mb-0">Free Returns</p>
-                  <span class="text-body-tertiary">Within 30 days</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="d-flex">
-                <i
-                  class="fa-solid fa-circle-info d-flex align-items-center fs-3 me-3 text-warning-emphasis"
-                ></i>
-                <div class="">
-                  <p class="mb-0">Get 20% Off 1 Item</p>
-                  <span class="text-body-tertiary">When you sign up</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="d-flex">
-                <i
-                  class="fa-regular fa-life-ring d-flex align-items-center fs-3 me-3 text-warning-emphasis"
-                ></i>
-                <div class="">
-                  <p class="mb-0">We Support</p>
-                  <span class="text-body-tertiary">24/7 amazing services</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr />
-    </main>
-
-    <!-- footer -->
-    <footer>
+  <main>
+    <section class="container-fluid hero">
       <div class="container">
-        <div class="d-flex justify-content-between mb-3">
-          <div class="text-body-tertiary">
-            <span>Copyright © 2019 Molla Store. All Rights Reserved.</span>
-            <button class="btn text-body-tertiary text-decoration-underline">Terms Of Use</button>
-            <button class="btn text-body-tertiary text-decoration-underline">Privacy Policy</button>
-          </div>
+        <div class="d-flex vh-100 justify-content-center align-items-center text-center">
           <div class="">
-            <i class="fa-brands fa-facebook-f me-3 text-primary"></i>
-            <i class="fa-brands fa-twitter me-3 text-info"></i>
-            <i class="fa-brands fa-instagram me-3 text-danger"></i>
-            <i class="fa-brands fa-youtube me-3 text-danger"></i>
-            <i class="fa-brands fa-pinterest me-3 text-danger"></i>
+            <p class="text-center text-light">SEASONAL PICKS</p>
+            <h1 class="text-light display-4 mb-3 fw-semibold">GET ALL THE GOOD STUFF</h1>
+            <button class="py-2 px-4 btn btn-outline-warning text-light rounded-0">
+              Discover More
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <section>
+      <div class="container">
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-6">
+              <div class="h-100">
+                <img class="img-fluid h-100" src="asset/images/banner-1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div>
+                <img class="img-fluid mb-4" src="asset/images/banner-2.jpg" alt="" />
+                <img class="img-fluid" src="asset/images/banner-3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary mt-5">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="mt-5 mb-4">
+            <h4 class="text-center">Recent Arrivals</h4>
+            <p>Aliquam tincidunt mauris eurisus</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <img src="asset/images/product-1-2.jpg" alt="" />
+            <h6 class="text-body-tertiary mb-0 mt-3">CLOTHING</h6>
+            <p class="mb-2">Linen-blend dress</p>
+            <p class="text-warning">$60.00</p>
+          </div>
+          <div class="col-3">
+            <div class="position-relative">
+              <img src="asset/images/product-2-2.jpg" alt="" />
+              <span class="position-absolute sale z-3 bg-warning-subtle p-1">sale</span>
+              <h6 class="text-body-tertiary mb-0 mt-3">SHOES</h6>
+              <p class="mb-2">Sandals with lacing</p>
+              <p class="text-warning mb-0">Now $70.00</p>
+              <p class="text-body-tertiary">Was $84.00</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <img src="asset/images/product-3-2.jpg" alt="" />
+            <h6 class="text-body-tertiary mb-0 mt-3">CLOTHING</h6>
+            <p class="mb-2">Paper bag trousers</p>
+            <p class="text-warning">$60.00</p>
+          </div>
+          <div class="col-3">
+            <img src="asset/images/product-4-2.jpg" alt="" />
+            <h6 class="text-body-tertiary mb-0 mt-3">HANDBAGS</h6>
+            <p class="mb-2">Bucket bag</p>
+            <p class="text-warning">$350.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="mt-5 mb-4">
+            <h4 class="text-center">Popular Categories</h4>
+            <p>Vestibulum auctor dapibus neque</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="position-relative shopCard">
+              <img src="asset/images/banner-4.jpg" alt="" />
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <p class="text-light text-center">Accessories</p>
+                <p class="text-light text-center">16 Items</p>
+                <button class="shopBtn btn btn-outline-warning">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="">
+              <img src="asset/images/banner-6.jpg" alt=""/>
+              <img src="asset/images/banner-7.jpg" alt="" class="mt-4" />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="">
+              <img src="asset/images/banner-5.jpg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="d-flex">
+              <i class="fa-solid fa-rocket d-flex align-items-center fs-3 me-3 text-warning-emphasis"></i>
+              <div class="">
+                <p class="mb-0">Free Shipping</p>
+                <span class="text-body-tertiary">Orders $50 or more</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="d-flex">
+              <i class="fa-solid fa-rotate-left d-flex align-items-center fs-3 me-3 text-warning-emphasis"></i>
+              <div class="">
+                <p class="mb-0">Free Returns</p>
+                <span class="text-body-tertiary">Within 30 days</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="d-flex">
+              <i class="fa-solid fa-circle-info d-flex align-items-center fs-3 me-3 text-warning-emphasis"></i>
+              <div class="">
+                <p class="mb-0">Get 20% Off 1 Item</p>
+                <span class="text-body-tertiary">When you sign up</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="d-flex">
+              <i class="fa-regular fa-life-ring d-flex align-items-center fs-3 me-3 text-warning-emphasis"></i>
+              <div class="">
+                <p class="mb-0">We Support</p>
+                <span class="text-body-tertiary">24/7 amazing services</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr/>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="d-flex justify-content-between mb-3">
+        <div class="text-body-tertiary">
+          <span>Copyright © 2019 Molla Store. All Rights Reserved.</span>
+          <button class="btn text-body-tertiary text-decoration-underline">Terms Of Use</button>
+          <button class="btn text-body-tertiary text-decoration-underline">Privacy Policy</button>
+        </div>
+        <div class="">
+          <i class="fa-brands fa-facebook-f me-3 text-primary"></i>
+          <i class="fa-brands fa-twitter me-3 text-info"></i>
+          <i class="fa-brands fa-instagram me-3 text-danger"></i>
+          <i class="fa-brands fa-youtube me-3 text-danger"></i>
+          <i class="fa-brands fa-pinterest me-3 text-danger"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
